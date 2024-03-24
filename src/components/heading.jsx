@@ -8,7 +8,7 @@ export default function Heading(props) {
           Meteo <span className="text-primary"> Vallauri</span> Velletri
         </h1>
         <p className="text-lg text-center lg:text-3xl md:text-xl text-muted-foreground">
-          Benvenuto. Su questo sito potrai trovare le condizioni cliamtiche di
+          Benvenuto. Su questo sito potrai trovare le condizioni climatiche di
           Velletri.
         </p>
       </div>
