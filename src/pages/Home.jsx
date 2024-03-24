@@ -29,7 +29,7 @@ export default function Home() {
   const ref = useRef();
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.1 1"],
+    offset: ["0 1", "1.5 1.5"],
   });
   // menu onclick animation
   const btnVariant = {
@@ -207,7 +207,7 @@ export default function Home() {
                 Grafici della settimana
               </h4>
             </div>
-            <TabsList className="grid grid-cols-4 w-[100%]">
+            <TabsList className="grid grid-cols-4 w-[100%] *:text-xs md:text-sm">
               <TabsTrigger value="temperature">Temperatura</TabsTrigger>
               <TabsTrigger value="humidity">Umidità</TabsTrigger>
               <TabsTrigger value="pressure">Pressione</TabsTrigger>

@@ -15,14 +15,14 @@ export default function SearchDay() {
         Cerca in base alla data
       </h2>
       {/* SEARCHER */}
-      <div className="relative w-[40%] m-auto mt-20">
+      <div className="relative md:w-[50%] lg:w-[40%] w-[80%] m-auto mt-20">
         <DatePicker className="w-[100%] outline outline-primary/10" />
         <Button className="absolute top-0 right-0 rounded-s-none">
           <Search />
         </Button>
       </div>
       {/* DAY INFO */}
-      <h4 className="mt-40 text-2xl md:text-3xl font-medium tracking-tight scroll-m-20 drop-shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] px-14">
+      <h4 className="mt-40 text-2xl md:text-3xl font-medium tracking-tight scroll-m-20 drop-shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] px-14 text-center">
         Informazioni del 20/01/24:
       </h4>
       {/* COL CARDS */}

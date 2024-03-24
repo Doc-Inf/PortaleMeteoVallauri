@@ -16,7 +16,7 @@ export default function About() {
         className="fixed w-[100vw] shadow-lg h-1 bg-primary/80 top-20 z-10"
       />
       {/* MAIN CONTAINER */}
-      <div className="px-5 md:px-20">
+      <div className="px-5 overflow-x-hidden md:px-20">
         {/* HEADING */}
         <motion.div
           className="relative flex items-center justify-center h-[45vh] lg:max-w-[80%] m-auto my-56"
@@ -77,14 +77,14 @@ export default function About() {
           <h2 className="order-1 pb-6 text-4xl font-normal tracking-tight text-center md:text-6xl scroll-m-20 first:mt-0 xl:col-span-2">
             La nostra scuola
           </h2>
-          <h4 className="order-3 col-span-2 mt-6 mb-8 text-xl font-medium tracking-tight xl:order-2 lg:px-40 xl:text-center scroll-m-20">
+          <h4 className="order-3 col-span-2 mt-6 mb-8 text-xl font-medium tracking-tight text-justify xl:order-2 lg:px-40 md:text-center scroll-m-20">
             La scuola viene istituita nell' A. S. 1960 /61 come succursale
             dell'I.T.I.S. "E. Fermi" di Roma all'epoca esistevano solo tre
             sezioni: la sezione A di 37 alunni la sezione B di 37 alunni la
             sezione C di 39 alunni le quali erano seguite dal Prof. Diana
             Umberto.
           </h4>
-          <div className="order-3 overflow-scroll text-center">
+          <div className="order-3 overflow-scroll text-justify">
             <p className="leading-6 [&:not(:first-child)]:mt-4 text-pretty text-foreground/95">
               Il quale è stato il coordinatore con la partecipazione dell'
               I.T.I.S. E. Fermi di Roma per l' avvio e la gestione iniziale
@@ -115,14 +115,16 @@ export default function About() {
               Vallauri": gli allievi provengono ,infatti, prevalentemente da
               Lariano, Genzano, Albano, Ariccia, Lanuvio, Cecchina, S.Maria
               delle Mole, Castel Gandolfo, Ciampino, Cisterna e Artena oltre che
-              , come ovvio, dalla stessa Velletri. Alla iniziale
-              specializzazione in Elettronica Industriale si sono affiancati,
-              più di recente nuovi corsi (INFORMATICA e LICEO SCIENTIFICO
-              TECNOLOGICO), ciò nell'intento di rispondere con sempre maggiore
-              efficacia alla domanda e alle legittime esigenze del mondo del
-              lavoro che, alla scuola chiede un continuo sforzo di aggiornamento
-              per adeguare i futuri periti all'apprendimento e all'uso delle
-              nuove tecnologie.
+              , come ovvio, dalla stessa Velletri.
+            </p>
+            <p className="leading-6 [&:not(:first-child)]:mt-4 text-pretty text-foreground/95">
+              Alla iniziale specializzazione in Elettronica Industriale si sono
+              affiancati, più di recente nuovi corsi (INFORMATICA e LICEO
+              SCIENTIFICO TECNOLOGICO), ciò nell'intento di rispondere con
+              sempre maggiore efficacia alla domanda e alle legittime esigenze
+              del mondo del lavoro che, alla scuola chiede un continuo sforzo di
+              aggiornamento per adeguare i futuri periti all'apprendimento e
+              all'uso delle nuove tecnologie.
             </p>
           </div>
           <div className="flex flex-col self-center order-2 align-items-center *:m-auto space-y-8 xl:order-3">
@@ -167,7 +169,7 @@ export default function About() {
           single={true}
         />
         {/* STUDENTS */}
-        <div className="mt-8 mb-24 lg:columns-3 columns-2 h-[40vh]">
+        <div className="mt-8 mb-96 md:mb-40 grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-4 h-[40vh]">
           <PeopleCard
             title="Professori"
             people={[
@@ -177,7 +179,7 @@ export default function About() {
             className="hidden lg:block"
           />
           <PeopleCard
-            title="Studenti Infromatica"
+            title="Studenti Informatica"
             people={[
               { name: "Boaretto Lorenzo", subj: "Informatica" },
               { name: "Cipolla Emilio", subj: "Informatica" },

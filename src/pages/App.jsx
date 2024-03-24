@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { ThemeProvider, useTheme } from "../components/ui/theme-provider";
+import { ThemeProvider } from "../components/ui/theme-provider";
 import NavBar from "../components/navbar";
 import Home from "./Home";
 import About from "./About";
@@ -9,8 +9,8 @@ import SearchDay from "./SearchDay";
 
 function App() {
   return (
-    <>
-      <ThemeProvider>
+    <ThemeProvider className="overflow-x-hidden" defaultTheme="dark">
+      <div className="overflow-x-hidden">
         <NavBar />
         <div className="pb-40">
           {/* NAV */}
@@ -22,8 +22,8 @@ function App() {
             <Route path="/storico" element={<SearchDay />} />
           </Routes>
         </div>
-      </ThemeProvider>
-    </>
+      </div>
+    </ThemeProvider>
   );
 }
 
