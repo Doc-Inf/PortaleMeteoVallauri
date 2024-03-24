@@ -1,0 +1,68 @@
+.custom-bg {
+  animation: move-bg 1.5s linear 0s infinite alternate;
+}
+@keyframes move-bg {
+  0% {
+    background: linear-gradient(90deg, #1003fa44 0%, #358aebcc 100%);
+  }
+  5% {
+    background: linear-gradient(90deg, #180ded44 0%, #358aebcc 100%);
+  }
+  10% {
+    background: linear-gradient(90deg, #2218e655 0%, #358aebcc 100%);
+  }
+  15% {
+    background: linear-gradient(90deg, #241add55 0%, #358aebcc 100%);
+  }
+  20% {
+    background: linear-gradient(90deg, #3129c966 0%, #358aebcc 100%);
+  }
+  25% {
+    background: linear-gradient(90deg, #3029bc66 0%, #358aebcc 100%);
+  }
+  30% {
+    background: linear-gradient(90deg, #352ec677 0%, #358aebcc 100%);
+  }
+  35% {
+    background: linear-gradient(90deg, #332cb277 0%, #358aebcc 100%);
+  }
+  40% {
+    background: linear-gradient(90deg, #322ca288 0%, #358aebcc 100%);
+  }
+  45% {
+    background: linear-gradient(90deg, #2e299288 0%, #358aebcc 100%);
+  }
+  50% {
+    background: linear-gradient(90deg, #28239199 0%, #358aebcc 100%);
+  }
+  55% {
+    background: linear-gradient(90deg, #26208a99 0%, #358aebcc 100%);
+  }
+  60% {
+    background: linear-gradient(90deg, #221c88aa 0%, #358aebcc 100%);
+  }
+  65% {
+    background: linear-gradient(90deg, #231e83aa 0%, #358aebcc 100%);
+  }
+  70% {
+    background: linear-gradient(90deg, #1c1683bb 0%, #358aebcc 100%);
+  }
+  75% {
+    background: linear-gradient(90deg, #151084bb 0%, #358aebcc 100%);
+  }
+  80% {
+    background: linear-gradient(90deg, #130d85cc 0%, #358aebcc 100%);
+  }
+  85% {
+    background: linear-gradient(90deg, #120c88cc 0%, #358aebcc 100%);
+  }
+  90% {
+    background: linear-gradient(90deg, #110b87dd 0%, #358aebcc 100%);
+  }
+  95% {
+    background: linear-gradient(90deg, #0f088cdd 0%, #358aebcc 100%);
+  }
+  100% {
+    background: linear-gradient(90deg, #0a047bee 0%, #358aebcc 100%);
+  }
+}
