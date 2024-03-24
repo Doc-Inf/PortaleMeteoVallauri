@@ -1,0 +1,5 @@
+img.custom-border {
+  border-width: 20px !important;
+  border-color: transparent !important;
+  border-top-right-radius: 2.5rem !important;
+}

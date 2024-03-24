@@ -1,0 +1,10 @@
+.custom-container {
+  position: relative;
+  background-color: #33333333;
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+}
+.custom-border {
+  border-bottom-width: 0.2rem !important;
+  border-color: #33333333;
+}
